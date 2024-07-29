@@ -37,11 +37,11 @@ foreign key(order_id) references orders(order_id));
 
 
 
-insert into orders values(150, 'watch', 1000, 500, now(), 'Akash', now(), 'Varun');
-insert into orders values(115, 'Belt', 500, 550, now(), 'Kamlesh', now(), 'Bharath');
-insert into orders values(200, 'Laptop', 50000, 802, now(), 'Microsoft', now(), 'Microsoft');
-insert into orders values(802, 'Mobile', 35000, 880, now(), 'Samsumg', now(), 'Samsumg');
-insert into orders values(704, 'Bag', 2000, 709, now(), 'Nike', now(), 'Nike');
+insert into orders values(150, 'Gobimunchuri', 1000, 500, now(), 'Akash', now(), 'Varun');
+insert into orders values(115, 'Alugobi', 500, 550, now(), 'Kamlesh', now(), 'Bharath');
+insert into orders values(200, 'Allitems', 50000, 802, now(), 'Microsoft', now(), 'Microsoft');
+insert into orders values(802, 'Halfofthemenu', 35000, 880, now(), 'Samsumg', now(), 'Samsumg');
+insert into orders values(704, 'Chicken-65,75', 2000, 709, now(), 'Nike', now(), 'Nike');
 select * from orders;
 
 insert into payment values(508, 9000, 53, 550, 'successful', now(), 'Ramesh', now(), 'Suresh');  
